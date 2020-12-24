@@ -1,4 +1,4 @@
 sshfs 这个是把服务器上的一个文件夹挂载在自己电脑上，查文件比较方便
 https://osxfuse.github.io/
-sshfs zlwj@114.212.167.95.fr:/target/folder yourfolder（你自己电脑上建一个空文件夹）
+sshfs zlwj@114.212.167.95:/target/folder yourfolder（你自己电脑上建一个空文件夹）
 umount -f yourfolder
