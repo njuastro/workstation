@@ -1,0 +1,19 @@
+installation note 
+
+[How to install CASA in Ubuntu – StarScientist](https://starscientist.org/how-to-install-casa-in-ubuntu/)
+
+[official guide](https://casaguides.nrao.edu/index.php?title=Installing_CASA#Installing_CASA_on_Ubuntu)
+
+installed version: 2020-Dec-24
+CASA is releasing version 6.1 (Python 3) and CASA 5.7 (Python 2) simultaneously.
+
+casa-6.1.2-7-pipeline-2020.1.0.36 => py3
+casa-release-5.7.2-4.el7 => py2
+
+add in your .bashrc
+
+#casa-6_1_2 (py3)
+alias casa-6_1_2="/opt/CASA-6_1_2/casa-6.1.2-7-pipeline-2020.1.0.36/bin/./casa"
+
+#casa-5_7_2 (py2)
+alias casa-5_7_2="/opt/CASA-5_7_2/casa-release-5.7.2-4.el7/bin/./casa"
